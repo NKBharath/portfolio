@@ -91,3 +91,28 @@
     font-size: 22PX;
     font-weight: 500;
 }
+@media(max-width:480px){
+    .about-title h1{
+        font-size: 60px;
+    }
+    .about-title img{
+        width: 200px;
+    }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left img{
+        margin-left: 100px;
+    }
+    .about-right-para p{
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .about-skill{
+        gap: 10px;
+        width: 80%;
+        margin-left: 50px;
+    }
+}

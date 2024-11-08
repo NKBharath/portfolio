@@ -68,3 +68,15 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+@media (max-width:480px) {
+    .service-title h1{
+        font-size: 60px;
+    }
+    .service-title img{
+        width: 200px;
+    }
+    .services-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

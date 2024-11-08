@@ -5,7 +5,7 @@ import mywork_data from '../../assets/mywork_data'
 import arrow from '../../assets/arrow_icon.svg'
 const MyWork = () => {
   return (
-    <div className='MyWork'>
+    <div id='work' className='MyWork'>
         <div className="mywork-title">
             <h1>My Works</h1>
             <img src={themepattern} alt="themepattern" />
@@ -17,7 +17,9 @@ const MyWork = () => {
         </div>
         <div className="show-more">
             <p>Show More</p>
-            <img src={arrow} alt="" />
+            <a href="https://github.com/NKBharath">
+            <img src={arrow} alt=""  />
+            </a>
         </div>
     </div>
   )
