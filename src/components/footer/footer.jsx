@@ -7,8 +7,8 @@ const Footer = () => {
     <div className="footer">
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footerlogo} alt="" />
-                <p>I am a fronted developer from India, persuving #rd yeat in Ai</p>
+                <hr />
+                <p>SUBSCRIBE FOR UPDATES</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
@@ -20,11 +20,11 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="fo0ter-bottom-left">2024 Bharath. All is Well</p>
+            <p className="footer-bottom-left">2024 Bharath. All is Well</p>
             <p className="footer-bottom-right">
-                <p>Term of Service</p>
-                <p>privacy Policy</p>
-                <p>Connect With me</p>
+                <p className='footer-400px'>Term of Service</p>
+                <p className='footer-400px'>privacy Policy</p>
+                <p >Connect With me</p>
             </p>
         </div>
     </div>

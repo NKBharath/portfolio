@@ -42,7 +42,7 @@
 .nav-mob-open{
     display: none;
 }
-@media(max-width:480px){
+@media(max-width:678px){
     .navbar{
         margin: 20px ;
     }

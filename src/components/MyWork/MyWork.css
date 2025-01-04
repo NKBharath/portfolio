@@ -27,7 +27,7 @@
 }
 .mywork-container img{
     box-sizing: border-box;
-    width: 419 px;
+    width: 419px;
     height: 280px;
     transition: 0.8s;
     cursor: pointer;
@@ -54,18 +54,27 @@
     gap: 30px;
     transition: 0.3s;
 }
-@media (max-width:480px) {
+@media (max-width:678px) {
     .mywork-title h1{
-        font-size: 50px;
+        font-size: 40px;
+        width: 100%;
     }
     .mywork-title img{
-        width: 200px;
+        width: 150px;
     }
     .mywork-container {
         display: flex;
         flex-direction: column;
+        gap: 0px;
+    }
+    .mywork-container img{
+        width: 330px;
+        margin-bottom: -30px;
     }
     .show-more{
-        width: 200px;
+        width: 170px;
+        height: 30px;
+        gap: 10px;
+        padding: 10px 20px;
     }
 }
