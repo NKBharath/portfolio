@@ -15,12 +15,13 @@ const MyWork = () => {
                 return < img key={index} src={work.w_img} />
             })}
         </div>
-        <div className="show-more">
-            <p>Show More</p>
-            <a href="https://github.com/NKBharath">
-            <img src={arrow} alt=""  />
+        <div className="show-more" onClick={"https://github.com/NKBharath"}>
+            <a href="https://github.com/NKBharath" target="_blank" rel="noopener noreferrer">
+                <p>Show More</p>
+                <img src={arrow} alt="Arrow Icon" />
             </a>
         </div>
+
     </div>
   )
 }
