@@ -49,7 +49,7 @@
     background: linear-gradient(270deg, #ff0080, #ff8c00, #40e0d0, #ff0080);
     background-size: 400% 400%;
     z-index: 0;
-    animation: moving-border 4s linear infinite;
+    animation: moving-border 8s linear infinite;
 }
 
 @keyframes moving-border {
