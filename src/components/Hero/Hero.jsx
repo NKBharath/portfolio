@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css'
-import resume from '../../assets/bharath_resume.pdf'
+import resume from '../../assets/BHARATH_NK_RESUME.pdf'
 import profile from'../../assets/profile_img.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 function Hero() {

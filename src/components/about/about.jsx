@@ -21,10 +21,13 @@ function About() {
                     <p>My area of interest is to work in web developement</p>
                 </div>
                 <div className="about-right-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:'50%'}}/></div>
+                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:'80%'}}/></div>
                 <div className="about-skill"><p>Java Script</p><hr style={{width:'70%'}}/></div>
                 <div className="about-skill"><p>React JS</p><hr style={{width:'40%'}}/></div>
-                <div className="about-skill"><p>c & c++</p><hr style={{width:'80%'}}/></div>
+                <div className="about-skill"><p>Node JS</p><hr style={{width:'30%'}}/></div>
+                <div className="about-skill"><p>Express JS</p><hr style={{width:'20%'}}/></div>
+                <div className="about-skill"><p>c & c++</p><hr style={{width:'50%'}}/></div>
+                <div className="about-skill"><p>Java</p><hr style={{width:'60%'}}/></div>
                 </div>
             </dic>
         </div>
@@ -35,12 +38,12 @@ function About() {
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>003</h1>
+                <h1>005</h1>
                 <p>PROJECTS</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>002</h1>
+                <h1>004</h1>
                 <p>CLIENTS</p>
             </div>
         </div>
