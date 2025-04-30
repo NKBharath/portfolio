@@ -104,7 +104,9 @@
 }
 @media (max-width:678px) {
     .contact{
-        margin: 0;
+        margin-top: -100px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .contact-title h1{
         font-size: 40px;

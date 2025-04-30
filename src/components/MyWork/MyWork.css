@@ -63,6 +63,7 @@
 }
 @media (max-width:678px) {
     .mywork-title h1{
+        margin-top: -50px;
         font-size: 40px;
         width: 100%;
     }
@@ -72,13 +73,14 @@
     .mywork-container {
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        gap: 50px;
     }
     .mywork-container img{
         width: 330px;
         margin-bottom: -30px;
     }
     .show-more{
+        margin-top: 50px;
         width: 170px;
         height: 30px;
         gap: 10px;
